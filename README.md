@@ -5,18 +5,27 @@
 Ubah config pada environment development.
 
 
--Lakukan instalasi package dengan command
+- Lakukan instalasi package dengan command
 ```cmd
   npm install
 ```
 
--Lakukan migration menggunakan perintah
+- Lakukan migration menggunakan perintah
 ```cmd
 npx sequelize-cli db:migrate
 ```
 
--Jalankan node server menggunakan perintah
+- Jalankan node server menggunakan perintah
 ```cmd
 node index
 ```
+API yang dibuat atau tersedia.
+- `GET` `localhost:5000/api/account/`
+- `POST` `localhost:5000/api/account/`
 
+- `GET` `localhost:5000/api/transaction/`
+- `POST` `localhost:5000/api/transaction/`
+
+- `GET` `localhost:5000/api/point/`
+
+- `GET` `localhost:5000/api/report/`
