@@ -1,7 +1,7 @@
 # Assignment
 ## Cara Penggunaan Backend
 
-- Buat database dengan nama assignment, atau bila ingin mengganti dapat dilihat pada config.json didalam folder config.
+- Buat database dengan nama `assignment` atau bila ingin mengganti dapat dilihat pada config.json didalam folder config.
 Ubah config pada environment development.
 
 
