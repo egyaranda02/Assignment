@@ -49,6 +49,9 @@ module.exports.inputTransaction = async function (req, res) {
 module.exports.getPoint = async function (req, res) {
     try {
         const transactions = await db.Account.findAll({
+            order: [
+                ['accountId', 'ASC']
+            ],
             include: [
                 {
                     model: db.Transaction,
