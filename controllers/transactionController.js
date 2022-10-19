@@ -22,7 +22,7 @@ module.exports.inputTransaction = async function (req, res) {
         accountId,
         transactionDate,
         description,
-        debitCredit,
+        debitCreditStatus,
         amount
     } = req.body;
     try {
@@ -30,7 +30,7 @@ module.exports.inputTransaction = async function (req, res) {
             accountId,
             transactionDate,
             description,
-            debitCredit,
+            debitCreditStatus,
             amount
         });
         return res.status(200).json({
